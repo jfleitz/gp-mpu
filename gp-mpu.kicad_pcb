@@ -2903,26 +2903,26 @@
   )
 
   (footprint "MountingHole:MountingHole_3.7mm" (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 3a15d3a4-7fe3-4d5e-9e24-fd673f922c7d)
+    (tedit 6211249B) (tstamp 3a15d3a4-7fe3-4d5e-9e24-fd673f922c7d)
     (at 8.382 11.43)
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3a178f8-ad5c-4757-9f2a-0c8ca7814040)
     )
-    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab")
+    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a100e45-f471-4461-9578-4903d311ca5e)
     )
-    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 78e17a01-26e3-468c-86a7-6890ed9e73c4)
     )
     (fp_circle (center 0 0) (end 3.7 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 99ac923f-78c4-4f03-8904-9f70d791f7bc))
     (fp_circle (center 0 0) (end 3.95 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 41c614d0-9505-469f-810e-cbd6247c6a10))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask) (tstamp b7f8440c-23b7-437b-b935-4fbe03161fd7))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers F&B.Cu *.Mask) (tstamp b7f8440c-23b7-437b-b935-4fbe03161fd7))
   )
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
@@ -4338,15 +4338,15 @@
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14b72527-732c-4158-beb4-8384348dcd1f)
     )
-    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab")
+    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1571e70-4f40-42be-abc6-29bf576f6746)
     )
-    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6924e1f1-7991-48a9-9740-c57d6be14705)
     )
@@ -10662,15 +10662,15 @@
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3cd1ca54-876a-4df6-8500-19a372da4c45)
     )
-    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab")
+    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 61d500a1-1002-4639-8fcd-443ce517485c)
     )
-    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f3c72619-0e00-4db5-8088-29c58e7fa2ad)
     )
@@ -11617,15 +11617,15 @@
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec8b9584-ee6c-4873-be3b-f1431ce34a1c)
     )
-    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab")
+    (fp_text value "MountingHole_3.7mm" (at 0 4.7) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4190d177-9d65-41f0-a309-2538978aaa9a)
     )
-    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 964d56d9-dbbb-414b-9d74-01838afcd85e)
     )
