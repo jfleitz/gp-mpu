@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "gp-parts")(type "KiCad")(uri "${KIPRJMOD}/gp-parts.kicad_sym")(options "")(descr ""))
+)
