@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>/home/drjones/Dropbox/ePin/schematic/gp-mpu/gp-mpu.kicad_sch</source>
-    <date>Mon 07 Feb 2022 09:24:12 AM EST</date>
+    <date>Sat 19 Feb 2022 11:41:19 AM EST</date>
     <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CPU and Memory</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>gp-mpu.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -26,7 +26,7 @@
       <title_block>
         <title>Peripheral Interfaces</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>periph.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -44,7 +44,7 @@
       <title_block>
         <title>Oscillator, Watchdog, Zero Cross</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>osc watchdog.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -62,7 +62,7 @@
       <title_block>
         <title>Display Digit Drivers</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>display.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -80,11 +80,11 @@
       <title_block>
         <title>Switch Matrix, Dip Switches and Diag/Reset Sw</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>switches.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
-        <comment number="2" value=""/>
+        <comment number="2" value="1.1: Update R52 = 470, R43 = 1k; Add R83-R90"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -98,7 +98,7 @@
       <title_block>
         <title>Ports</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>ports.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -116,7 +116,7 @@
       <title_block>
         <title>Power and Non-Connected pins</title>
         <company>ePinball</company>
-        <rev>1</rev>
+        <rev>1.1</rev>
         <date>2022-02-05</date>
         <source>powerpins.kicad_sch</source>
         <comment number="1" value="github.com/jfleitz/gp-mpu"/>
@@ -1514,7 +1514,7 @@
       <tstamps>3d88d3ea-63da-4f3e-a223-03ba04a10943</tstamps>
     </comp>
     <comp ref="R43">
-      <value>10k</value>
+      <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="switches"/>
@@ -1595,7 +1595,7 @@
       <tstamps>3fb57f80-4fcb-4b87-9dc0-05c323caeae6</tstamps>
     </comp>
     <comp ref="R52">
-      <value>6.8k</value>
+      <value>470</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="switches"/>
@@ -1828,6 +1828,78 @@
       <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
       <tstamps>95e6a73d-a4e4-4fc3-a3d4-a867f5cfaaf4</tstamps>
     </comp>
+    <comp ref="R83">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>4a845ede-4258-46b7-b03d-a737b3f81034</tstamps>
+    </comp>
+    <comp ref="R84">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>fd9a1974-3a7f-4655-a66e-877bf3c2d140</tstamps>
+    </comp>
+    <comp ref="R85">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>e594da81-194d-46ca-baba-3ad189f9f98a</tstamps>
+    </comp>
+    <comp ref="R86">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>e93faa06-1aa1-4f90-ae85-2f5c576b4261</tstamps>
+    </comp>
+    <comp ref="R87">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>039fd6ad-6167-42af-a15d-aa9d7ebf7ed3</tstamps>
+    </comp>
+    <comp ref="R88">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>a774d04a-60f7-4c87-8d64-447b69111463</tstamps>
+    </comp>
+    <comp ref="R89">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>63d9eb9f-ef5c-4b96-af23-6c6069cac50a</tstamps>
+    </comp>
+    <comp ref="R90">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="switches"/>
+      <property name="Sheetfile" value="switches.kicad_sch"/>
+      <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
+      <tstamps>2cf38d6a-33b2-4ecb-88bb-22dc61c90e77</tstamps>
+    </comp>
     <comp ref="SW2">
       <value>Dip 1-8</value>
       <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
@@ -1881,7 +1953,7 @@
       <property name="Sheetname" value="switches"/>
       <property name="Sheetfile" value="switches.kicad_sch"/>
       <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
-      <tstamps>935ddd09-0479-4bd3-9204-0b89502cd376 f2e194c7-a4a7-4a76-86d8-5144b7dbf322 9249e0c5-48f5-4d94-bf3b-e235655c790d 48297738-ef5c-41b5-ac4e-ff4725b510b9</tstamps>
+      <tstamps>9249e0c5-48f5-4d94-bf3b-e235655c790d 935ddd09-0479-4bd3-9204-0b89502cd376 f2e194c7-a4a7-4a76-86d8-5144b7dbf322 48297738-ef5c-41b5-ac4e-ff4725b510b9</tstamps>
     </comp>
     <comp ref="U19">
       <value>LM339</value>
@@ -1891,7 +1963,7 @@
       <property name="Sheetname" value="switches"/>
       <property name="Sheetfile" value="switches.kicad_sch"/>
       <sheetpath names="/switches/" tstamps="/d9d62037-f374-4e82-9b47-d29e75ae986c/"/>
-      <tstamps>e7b9c592-6fb7-47d7-9d38-4ff32c9fd2db d5e89c36-c9ee-4888-aa1e-509430b98de3 a3e27160-b1c6-4be6-98a1-dc4cea16ea69 31f46b37-25fa-4df8-8bf9-3d3d8c8def51</tstamps>
+      <tstamps>d5e89c36-c9ee-4888-aa1e-509430b98de3 e7b9c592-6fb7-47d7-9d38-4ff32c9fd2db a3e27160-b1c6-4be6-98a1-dc4cea16ea69 31f46b37-25fa-4df8-8bf9-3d3d8c8def51</tstamps>
     </comp>
     <comp ref="J1">
       <value>Power</value>
@@ -2990,7 +3062,15 @@
       <node ref="R79" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="R82" pin="1" pintype="passive"/>
+      <node ref="R83" pin="1" pintype="passive"/>
+      <node ref="R84" pin="1" pintype="passive"/>
+      <node ref="R85" pin="1" pintype="passive"/>
+      <node ref="R86" pin="1" pintype="passive"/>
+      <node ref="R87" pin="1" pintype="passive"/>
+      <node ref="R88" pin="1" pintype="passive"/>
+      <node ref="R89" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="R90" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="IEI" pintype="input"/>
       <node ref="U1" pin="24" pinfunction="+5V" pintype="input"/>
       <node ref="U10" pin="16" pinfunction="VCC" pintype="power_in"/>
@@ -3926,41 +4006,49 @@
     </net>
     <net code="152" name="PB0">
       <node ref="R69" pin="2" pintype="passive"/>
+      <node ref="R83" pin="2" pintype="passive"/>
       <node ref="U16" pin="2" pintype="open_collector"/>
       <node ref="U8" pin="18" pinfunction="PB0" pintype="bidirectional"/>
     </net>
     <net code="153" name="PB1">
       <node ref="R70" pin="2" pintype="passive"/>
+      <node ref="R84" pin="2" pintype="passive"/>
       <node ref="U16" pin="1" pintype="open_collector"/>
       <node ref="U8" pin="19" pinfunction="PB1" pintype="bidirectional"/>
     </net>
     <net code="154" name="PB2">
       <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="R85" pin="2" pintype="passive"/>
       <node ref="U16" pin="13" pintype="open_collector"/>
       <node ref="U8" pin="20" pinfunction="PB2" pintype="bidirectional"/>
     </net>
     <net code="155" name="PB3">
       <node ref="R72" pin="2" pintype="passive"/>
+      <node ref="R86" pin="2" pintype="passive"/>
       <node ref="U16" pin="14" pintype="open_collector"/>
       <node ref="U8" pin="21" pinfunction="PB3" pintype="bidirectional"/>
     </net>
     <net code="156" name="PB4">
       <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="R87" pin="2" pintype="passive"/>
       <node ref="U19" pin="2" pintype="open_collector"/>
       <node ref="U8" pin="22" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="157" name="PB5">
       <node ref="R74" pin="2" pintype="passive"/>
+      <node ref="R88" pin="2" pintype="passive"/>
       <node ref="U19" pin="1" pintype="open_collector"/>
       <node ref="U8" pin="23" pinfunction="PB5" pintype="bidirectional"/>
     </net>
     <net code="158" name="PB6">
       <node ref="R75" pin="2" pintype="passive"/>
+      <node ref="R89" pin="2" pintype="passive"/>
       <node ref="U19" pin="13" pintype="open_collector"/>
       <node ref="U8" pin="24" pinfunction="PB6" pintype="bidirectional"/>
     </net>
     <net code="159" name="PB7">
       <node ref="R76" pin="2" pintype="passive"/>
+      <node ref="R90" pin="2" pintype="passive"/>
       <node ref="U19" pin="14" pintype="open_collector"/>
       <node ref="U8" pin="25" pinfunction="PB7" pintype="bidirectional"/>
     </net>
