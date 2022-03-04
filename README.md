@@ -2,7 +2,8 @@
 This repository contains the KiCad files for designing and creating a GamePlan multi-mpu board for GamePlan pinball machines. The board will work in all upright as well as the cocktail pinball machines.
 
 # Where to Order the board
-The board can be ordered from anywhere, using the latest release plot files. The plot files have been uploaded to OshPark for version 1.1 and can be found here: https://oshpark.com/shared_projects/i8VzAXwn
+PCBWay was used for Version 1.1 and 1.2. The link to order the boards can be found here:
+https://www.pcbway.com/project/shareproject/GamePlan_Multi_MPU_Board_601e3e7b.html
 
 
 # Status
