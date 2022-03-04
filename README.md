@@ -7,9 +7,7 @@ https://www.pcbway.com/project/shareproject/GamePlan_Multi_MPU_Board_601e3e7b.ht
 
 
 # Status
-*You may want to hold off until testing is complete!!!!*
-
-This board is under testing. Ver 1.0 had some issues that have been fixed on the prototype board.
+The board has been tested in several GamePlan machines, both upright and cocktail.
 
 
 Checkout https://www.epinball.com for the background, current status and additional documentation.
