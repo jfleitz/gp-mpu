@@ -6,8 +6,8 @@
 
   (title_block
     (title "CPU and Memory")
-    (date "2022-02-05")
-    (rev "1.1")
+    (date "2022-08-27")
+    (rev "1.5")
     (company "ePinball")
     (comment 1 "github.com/jfleitz/gp-mpu")
   )
@@ -2094,7 +2094,6 @@
       )
     )
   )
-
 
   (junction (at 212.09 21.59) (diameter 0) (color 0 0 0 0)
     (uuid 083ebbd4-ecf1-4db0-b868-cf64f79f54d7)
@@ -4256,10 +4255,10 @@
   (symbol (lib_id "Memory_NVRAM:FM16W08-SG") (at 212.09 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 495edd1f-5a9d-48f0-9e2b-efd61b0363a1)
-    (property "Reference" "U7" (id 0) (at 214.1094 25.2435 0)
+    (property "Reference" "U7" (id 0) (at 214.1094 64.2604 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "FM16W08-SG" (id 1) (at 214.1094 28.0186 0)
+    (property "Value" "FM16W08-SG" (id 1) (at 214.1094 66.7973 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-28_W15.24mm_LongPads" (id 2) (at 212.09 45.72 0)
@@ -4893,14 +4892,14 @@
     )
   )
 
-  (sheet (at 435.61 99.06) (size 41.91 34.29) (fields_autoplaced)
+  (sheet (at 439.42 95.25) (size 34.29 41.91) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 440aa22c-1d00-4ea9-b602-c8241f3dc90e)
-    (property "Sheet name" "ports" (id 0) (at 435.61 98.3484 0)
+    (property "Sheet name" "ports" (id 0) (at 439.42 94.5384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "ports.kicad_sch" (id 1) (at 435.61 133.9346 0)
+    (property "Sheet file" "ports.kicad_sch" (id 1) (at 439.42 137.7446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -5506,6 +5505,9 @@
     )
     (path "/440aa22c-1d00-4ea9-b602-c8241f3dc90e/f094855b-7c38-41a8-88b2-dec9e55db250"
       (reference "J9") (unit 1) (value "DISPLAY") (footprint "gp-connector:display-upright")
+    )
+    (path "/33d9a8cf-31ed-405a-9422-9faebf8878bc/d22ae9a6-0fb5-4f30-9348-0c22d164c7ee"
+      (reference "JP1") (unit 1) (value "NVRAM") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/a452fa18-3a10-4a3a-b908-f3e47e22c275/b1537c9a-ac6c-4856-a0b0-594671ca4ebd"
       (reference "L1") (unit 1) (value "0.22uh") (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1")
