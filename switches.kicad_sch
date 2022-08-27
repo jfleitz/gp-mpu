@@ -6,8 +6,8 @@
 
   (title_block
     (title "Switch Matrix, Dip Switches and Diag/Reset Sw")
-    (date "2022-02-05")
-    (rev "1.1")
+    (date "2022-08-27")
+    (rev "1.5")
     (company "ePinball")
     (comment 1 "github.com/jfleitz/gp-mpu")
     (comment 2 "1.1: Update R52 = 470, R43 = 1k; Add R83-R90")
@@ -832,7 +832,6 @@
       )
     )
   )
-
 
   (junction (at 53.34 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 016dc8a3-9b26-4c55-bfad-569e995e963f)

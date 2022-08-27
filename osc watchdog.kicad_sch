@@ -6,8 +6,8 @@
 
   (title_block
     (title "Oscillator, Watchdog, Zero Cross")
-    (date "2022-02-05")
-    (rev "1.1")
+    (date "2022-08-27")
+    (rev "1.5")
     (company "ePinball")
     (comment 1 "github.com/jfleitz/gp-mpu")
   )
@@ -760,7 +760,6 @@
       )
     )
   )
-
 
   (junction (at 213.36 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 0164f5cd-a074-4a7d-b2c7-ab3734342c8b)
